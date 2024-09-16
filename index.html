@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="ui.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>Cadastro de Funcionário</h1>
+    <h2>insira seus dados</h2>
+    <form action="recebedados"aqui method = "get">
+        <p>Nome:</p> <input type="text" placeholder="DIgite o nome"name="nome"><br>
+        <p>Data de nascimento</p> 
+        <input type="date" name="Data de nascimento">
+        <p>Senha:</p>
+        <input type="password"name="0000">
+        <p>Email</p>
+        <input type="email" id="email" name="email" required>
+        <p>Foto</p>
+        <input type="file" name="arquivo" id="arquivo">
+        <p>Estado Civil</p>
+        <input type="radio"name="Estado Civil"value="Solteiro"> Solteiro <br>
+        <input type="radio"name="Estado Civil"value="Casado">Casado <br>
+        <input type="radio"name="Estado Civil"value ="Namorando">Namorando <br>
+           
+
+        <p>País</p>
+        <select name="estado">
+            <option value=""></option> <br>
+            <option value="mg">Brasil</option> <br>
+            <option value="df">EUA</option> <br>
+            <option value="go">Colombia</option> <br>           
+        </select>
+       
+        <button type="submit">
+            <a href="https://www.ubec.edu.br/" style="color: inherit; text-decoration: none;">Cadastrar</a>
+        </button>
+
+    </form>
+   
+</body>
+</html>
